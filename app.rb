@@ -46,5 +46,9 @@ def get_authorization_token
   JSON.parse(Net::HTTP.get(URI(access_token_url)))['access_token']
 end
 
-code = get_authorization_token
-puts code
+def read_episode_config(path)
+
+end
+
+# code = get_authorization_token
+# puts code
