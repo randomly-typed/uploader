@@ -1,0 +1,2 @@
+ENV['client_id'] = 'id'
+ENV['client_secret'] = 'secret'
